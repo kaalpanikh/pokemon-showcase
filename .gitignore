@@ -18,6 +18,28 @@
 .env.test.local
 .env.production.local
 
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# deployment files
+windsurf_deployment.yaml
+.netlify
+netlify.toml
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+
+# OS generated files
+Thumbs.db
+.directory

@@ -103,7 +103,7 @@ const Header = () => {
         <NavLinks>
           <NavLink to="/">Home</NavLink>
           <GithubLink 
-            href="https://github.com/your-username/pokemon-card-showcase" 
+            href="https://github.com/kaalpanikh/pokemon-showcase" 
             target="_blank" 
             rel="noopener noreferrer"
           >

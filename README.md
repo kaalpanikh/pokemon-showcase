@@ -28,8 +28,8 @@ A modern, responsive React application that displays Pokémon cards with detaile
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/pokemon-card-showcase.git
-cd pokemon-card-showcase
+git clone https://github.com/kaalpanikh/pokemon-showcase.git
+cd pokemon-showcase
 ```
 
 2. Install dependencies:
@@ -53,6 +53,20 @@ npm run build
 ```
 
 This will create optimized files in the `build` folder ready for deployment.
+
+## Deployment
+
+This project is deployed at:
+- [Netlify](https://pokemon-card-showcase.windsurf.build)
+- [Custom Domain](https://pokemon.nikhilmishra.live) (coming soon)
+
+To deploy your own version:
+1. Fork this repository
+2. Set up a Netlify account
+3. Connect your GitHub repository to Netlify
+4. Configure build settings with:
+   - Build command: `npm run build`
+   - Publish directory: `build`
 
 ## API Reference
 
