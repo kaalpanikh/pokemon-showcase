@@ -1,3 +1,19 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap location
+Sitemap: https://pokemon.nikhilmishra.live/sitemap.xml
+
+# Prevent unnecessary crawling of build assets
+User-agent: *
+Disallow: /static/
+Disallow: /*.json$
+
+# Allow major search engines full access
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Slurp
+Allow: /

@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Pokémon Card Showcase",
+  "url": "https://pokemon.nikhilmishra.live",
+  "description": "Modern, responsive Pokémon card showcase with beautiful UI, detailed stats, and powerful search functionality",
+  "applicationCategory": "Entertainment",
+  "genre": "Gaming",
+  "operatingSystem": "Web",
+  "browserRequirements": "Requires JavaScript",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Nikhil Mishra"
+  },
+  "keywords": "Pokemon, Pokedex, Cards, Gaming, Collection, React",
+  "screenshot": "https://pokemon.nikhilmishra.live/logo512.png",
+  "softwareVersion": "1.0.0",
+  "datePublished": "2025-04-04",
+  "copyrightYear": 2025,
+  "maintainer": {
+    "@type": "Person",
+    "name": "Nikhil Mishra"
+  }
+}

@@ -19,6 +19,15 @@ const GlobalStyles = createGlobalStyle`
     color: #333;
     min-height: 100vh;
     line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
   }
 
   button, input, select, textarea {
@@ -28,6 +37,11 @@ const GlobalStyles = createGlobalStyle`
   img {
     max-width: 100%;
     display: block;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 
   /* Custom scrollbar */

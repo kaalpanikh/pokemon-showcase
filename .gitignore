@@ -1,45 +1,105 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Dependencies
 /node_modules
 /.pnp
 .pnp.js
+yarn.lock
+package-lock.json
 
-# testing
+# Testing
 /coverage
+/cypress/videos
+/cypress/screenshots
+/.nyc_output
 
-# production
+# Production & Build
 /build
+/dist
+/.next
+/.nuxt
+/.vuepress/dist
+/.serverless
+/storybook-static
 
-# misc
-.DS_Store
+# Environment & Secrets
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*
+!.env.example
+.vercel
+.netlify
 
-# logs
+# Editor & IDE
+/.idea
+/.vscode/*
+!/.vscode/extensions.json
+!/.vscode/settings.json
+/.vs
+*.sublime-*
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+.directory
+
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
 
-# deployment files
+# Deployment config
 windsurf_deployment.yaml
-.netlify
-netlify.toml
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Cache & Temporary files
+.cache
+.parcel-cache
+.rts2_cache_*
+.rpt2_cache
+.eslintcache
+.stylelintcache
+.npm
+.temp
+.tmp
+.history
 
-# Environment variables
-.env
+# Generated files
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+/typings
+*.tsbuildinfo
+*.map
+*.local
 
-# OS generated files
-Thumbs.db
-.directory
+# Mobile & Native
+/ios/Pods/
+/android/app/build/
+/ios/build/
+/android/local.properties
+/captures
+.gradle
+*.apk
+*.aab
+*.hprof
+
+# Misc
+.firebase/
+*.pid.lock
+*.seed
+*.pid
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+ehthumbs.db
+$RECYCLE.BIN/
