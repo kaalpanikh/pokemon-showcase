@@ -58,10 +58,6 @@ This will create optimized files in the `build` folder ready for deployment.
 
 This project uses the [PokéAPI](https://pokeapi.co/) - a free RESTful Pokémon API.
 
-## License
-
-MIT License
-
 ## Credits
 
 - [PokéAPI](https://pokeapi.co/) for providing the Pokémon data
