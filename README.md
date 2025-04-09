@@ -14,16 +14,6 @@ A modern, responsive React application that displays Pokémon cards with detaile
 - **Type-Based Theming**: Cards and detail pages colored based on Pokémon type
 - **Load More**: Pagination system to load more Pokémon as needed
 
-## Technologies Used
-
-- React.js
-- React Router
-- Styled Components
-- Framer Motion
-- Axios
-- React Icons
-- PokéAPI
-
 ## Installation
 
 1. Clone the repository:
