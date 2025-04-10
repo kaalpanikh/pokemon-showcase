@@ -6,7 +6,7 @@ A modern, responsive React application that displays Pokémon cards with detaile
 
 ## Features
 
-- **Beautiful Card UI**: Modern card design with type-based color theming
+- **Beautiful Card UI**: Modern card design with type-based color theming.
 - **Responsive Layout**: Works on all devices - desktop, tablet, and mobile
 - **Detailed Information**: View comprehensive stats, abilities, and physical attributes
 - **Search Functionality**: Find Pokémon by name or ID
