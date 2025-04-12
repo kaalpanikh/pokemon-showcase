@@ -1,6 +1,6 @@
 # Pokémon Card Showcase
 
-A modern, responsive React application that displays Pokémon cards with detailed information using the PokéAPI.
+A modern, responsive React application that displays Pokémon cards with detailed information using the PokéAPI
 
 ![Pokemon Card Showcase](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png)
 
